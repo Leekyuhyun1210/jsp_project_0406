@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<script type="text/javascript" src="js/join.js" ></script>
+<script type="text/javascript" src="js/join.js"></script>
 <title>회원 가입</title>
 </head>
 <body>
