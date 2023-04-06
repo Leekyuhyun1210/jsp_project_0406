@@ -53,5 +53,8 @@
 			}			
 		}
 	%>
+	<br>
+	<hr>
+	<input type="button" value="회원정보수정 ▶▶" onclick="script:window.location.href='modifyInput.jsp'">
 </body>
 </html>
