@@ -1,4 +1,4 @@
-
+ 
 function checkJoin() {
 	 
 	 if(document.user_info.userID.value.length < 2 || document.user_info.userID.value.lenght > 16) {
@@ -17,4 +17,11 @@ function checkJoin() {
 	 }
 	 
 	 return true;
+ }
+ 
+ function popup() {
+	 var url = "idCheck.jsp";
+	 var name = "ID 가입여부 확인";
+	 var option = "width = 400, height = 200, top = 100, left = 200, location = no"
+	 window.open(url, name, option);
  }
