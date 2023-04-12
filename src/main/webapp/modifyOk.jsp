@@ -50,6 +50,7 @@
 				pstmt.close();
 			}
 			if(conn != null) {
+				conn.close();
 			}
 		}
 	%>
